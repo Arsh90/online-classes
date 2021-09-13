@@ -14,3 +14,6 @@ Get online classes links using shell
 ## Linux/Mac Os
 ### Clone The Script.
 <pre><code>git clone https://github.com/Arsh90/online-classes</code></pre>
+
+### Make It Executable
+<pre><code>chmod +x classes</code></pre>
