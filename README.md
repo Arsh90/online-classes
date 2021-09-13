@@ -8,3 +8,9 @@ Get online classes links using shell
 <li>sed</li>
  <li>grep</li>
 </ul>
+
+# Installation
+
+## Linux/Mac Os
+### Clone The Script.
+<pre><code>git clone https://github.com/Arsh90/online-classes</code></pre>
