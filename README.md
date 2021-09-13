@@ -2,7 +2,9 @@
 Online Google Meet Classes Automation Using shell.
 
 #Requirments
--curl
--dmenu
--sed
--grep
+<ul>
+<li>curl</li>
+<li>dmenu</li>
+<li>sed</li>
+ <li>grep</li>
+</ul>
