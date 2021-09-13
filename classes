@@ -1,7 +1,5 @@
 #!/bin/bash
 
-bash ./timetable
-
 subject=$(echo -e "ENGLISH\nHINDI\nMATHS\nCHEMISTRY\nSOCIAL SCIENCE\nBIOLOGY\nSANSKRIT\nCOMPUTER\nMUSIC\nDRAWING\nART N CRAFT\nMATHS REASONING\nGAMES GK - HPE\nCOMMUNICATION SKILLS\nDANCE" | dmenu -l 20)
 
 class_ulr=$(curl 'https://aadhunikschool.in/studgmeetlogincheck.php' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Content-Type: application/x-www-form-urlencoded' -H 'Origin: https://aadhunikschool.in' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: https://aadhunikschool.in/studgoogleloginp.php' -H 'Cookie: PHPSESSID=n30tt47ek3uij0ht857q695d3h' -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-Fetch-Dest: iframe' -H 'Sec-Fetch-Mode: navigate' -H 'Sec-Fetch-Site: same-origin' -H 'Sec-Fetch-User: ?1' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers' --data-raw 'regid=2530&fname=Arsh&class=VIIIB&dob=24%2F01%2F2008&year=2021&subject='"$subject"'&submit=Login' -s | grep -Po '(?<=(https://meet.google.com/)).*(")' | sed 's/"//g')
