@@ -1,2 +1,8 @@
 # online-classes
-Online Classes Automation Using shell.
+Online Google Meet Classes Automation Using shell.
+
+#Requirments
+-curl
+-dmenu
+-sed
+-grep
