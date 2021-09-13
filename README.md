@@ -17,3 +17,6 @@ Get online classes links using shell
 
 ### Make It Executable
 <pre><code>chmod +x classes</code></pre>
+
+### Run it
+<pre><code>./classes</code></pre>
