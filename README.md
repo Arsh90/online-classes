@@ -1,7 +1,7 @@
-# online-classes
-Online Google Meet Classes Automation Using shell.
+# Google Meet Classes 
+Get online classes links using shell
 
-#Requirments
+# Requirments
 <ul>
 <li>curl</li>
 <li>dmenu</li>
