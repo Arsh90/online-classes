@@ -20,3 +20,6 @@ Get online classes links using shell
 
 ### Run it
 <pre><code>./classes</code></pre>
+
+## Windows
+### I dont Care About Windows.
