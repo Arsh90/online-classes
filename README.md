@@ -26,6 +26,3 @@ Get online classes links using shell
 
 ## Windows
 ### I dont Do Windows!
-
-# Notice
-The script contains login information, use can use it if you want but what will you do mark my attendence!
