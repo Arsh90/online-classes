@@ -25,7 +25,7 @@ Get online classes links using shell
 <pre><code>./classes</code></pre>
 
 ## Windows
-### I dont Care About Windows.
+### I dont Do Windows!
 
 # Notice
 The script contains login information, use can use it if you want but what will you do mark my attendence!
