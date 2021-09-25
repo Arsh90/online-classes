@@ -25,4 +25,4 @@ Get online classes links using shell
 <pre><code>./classes</code></pre>
 
 ## Windows
-### 😝:
+### 😝
